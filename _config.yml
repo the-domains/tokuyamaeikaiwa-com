@@ -1,14 +1,26 @@
-layout_spectrum: 0.7706767
-typography_spectrum: 0.8266307
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.2730796
   brandStrength: 0.784574
-  lightness: 0.7260264
+  lightness: 0.5741138
   brandColors:
     - '#42764A'
     - '#201E1F'
     - '#D7C7B5'
     - '#A48F77'
     - '#FBF3F2'
-  rhythmicContrast: 0.7531928
+  rhythmicContrast: 0.4774436
+typography_spectrum: 0.8266307
+layout_spectrum: 0.7706767
 name: tokuyamaeikaiwa.com
